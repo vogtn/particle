@@ -4,13 +4,14 @@
   </div>
   <div class="row user-projects">
     <div class="six columns images">
-      <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+      <img alt="goslock" src="{{ "/assets/img/goslack.png" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
-      <h5> Project Title </h5>
-      <li> Featured Skills</li>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <a class="project-link" href="#">Check it out</a>
+      <h5> GoSlock - The Slack + Stock Bot </h5>
+      <li>featured tech: golang, websockets, psql, javascript, d3 </li>
+      <p>This app utilizes a golang chat bot, which connects with slack via websocket connections. The slack channel which goslock is connected to can query for stock quotes, or "purchase" them. In reality, the bot communicates to a SQL database and posts stock info from the depreciated google finance api creating a portfolio for the channel. The front end then displays this portfolio in a simple d3 chart.</p>
+      <a href="https://github.com/vogtn/StockApp"><i class="icon fa fa-github fa-3x"></i></a>
+      <a class="project-link" href="#">demo</a>
     </div>
   </div>
   <div class="row user-projects">
