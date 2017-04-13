@@ -108,7 +108,15 @@ a {
     text-decoration: none;
     font-size: 15px;
     font-style: bold;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 5px solid transparent;
+    &:hover {
+      border-bottom: solid 5px #FFF;
+    }
+    &:active {
+      border-bottom: solid 5px #FFF;
+    }
     @media only screen and (min-width:$cut){
       font-size: 20px;
     }
