@@ -238,7 +238,7 @@ a {
 }
 
 .project-link {
-  display: block;
+  display: inline-block;
   width: 100px;
   margin: 10px 0px;
   padding: 5px;
@@ -280,10 +280,14 @@ a {
   .love {
     color: red;
   }
+  p{
+    display: inline-block;
+  }
   a {
+    margin-left: 10%;
     text-decoration: none;
-    margin: 0;
     color: #FFF;
+    display: inline-block;
     &:hover{
       color: $sec;
     }
@@ -291,4 +295,8 @@ a {
       color: $sec;
     }
   }
+}
+
+#about{
+  margin-top: 5%
 }
